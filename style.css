@@ -1,0 +1,33 @@
+.nav{
+    display: flex;
+    background-color: #333333;
+    color: white;
+    width: 800px;
+    height: 20px;
+    align-items: center;
+    padding: 20px;
+    margin: 0px auto;
+}
+.nav-links{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    width: 800px;  
+    list-style-type: none;
+}
+.btn{
+    color: white;
+    background-color: #18a2b8;
+    border-color: black;
+}
+.active{
+    color: white;
+    font-weight: bold;
+}
+a{
+    color: gray;
+    margin-right: 20px;
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
